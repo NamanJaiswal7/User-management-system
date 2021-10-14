@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-box{
+  display: flex;
+  background-image: url(./images/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 50vh;
+  width: 40vw; */
+  margin-top: 10rem;
+  box-shadow:  -0.2em 0 .6em black;
+}
+.image>img{
+/* height:30%; */
+/* width: 100%; */
+padding: 2rem;
+margin: 3rem;
+
+
+}
+
+
+.input-fields{
+  padding: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.input-fields input{
+  font-family: 'Anonymous Pro', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  /* display: block; */
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+}
+input[type='submit']{
+  
+  background-color: #e7c900;
+  color: black;
+}
+input[type='submit']:hover{
+background-color: #eeda57;
+cursor: pointer;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.logo>img{
+  width: 60%;
+  padding: 0.5rem;
+  /* margin: 2rem; */
+  /* display: inline; */
+}
+
+h2{
+  color:#e7c900 ;
+  font-family: 'Anonymous Pro', monospace;
+}
